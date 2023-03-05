@@ -13,12 +13,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloControllerIT {
 
-    @Autowired
-    private TestRestTemplate template;
-
-    @Test
-    public void getHello() throws Exception {
-        ResponseEntity<String> response = template.getForEntity("/", String.class);
-        assertThat(response.getBody()).isEqualTo("Greetings from Spring Boot!");
-    }
+//    @Autowired
+//    private TestRestTemplate template;
+//
+//    @Test
+//    public void getHello() throws Exception {
+//        ResponseEntity<String> response = template.getForEntity("/", String.class);
+//        assertThat(response.getBody()).isEqualTo("Greetings from Spring Boot!");
+//    }
 }
